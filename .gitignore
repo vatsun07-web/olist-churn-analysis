@@ -1,0 +1,10 @@
+data/
+*.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+.venv/
+.DS_Store
+kaggle.json
