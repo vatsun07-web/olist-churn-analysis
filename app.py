@@ -23,7 +23,18 @@ html, body, [class*="css"] {
 }
 
 /* Hide default Streamlit branding */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
+
+/* Fix sidebar toggle button */
+[data-testid="collapsedControl"] {
+    display: block !important;
+    visibility: visible !important;
+    background-color: #2E86AB !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+[data-testid="collapsedControl"] svg {
+    fill: #FFFFFF !important;
+}
 
 /* App background */
 .stApp { background-color: #0F1923; }
