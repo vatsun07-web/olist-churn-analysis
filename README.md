@@ -1,6 +1,7 @@
 # Olist Customer Retention Risk Analysis
 
 **Portfolio Project 4 | CRISP-DM | Binary Churn Classification**
+🔴 Live Dashboard: https://vatsun07-web-olist-churn-analysis.streamlit.app
 
 ## Business Problem
 Build a churn classifier to identify Olist customers unlikely to make a repeat purchase within 90 days, enabling proactive retention targeting.
